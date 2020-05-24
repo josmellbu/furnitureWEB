@@ -1,75 +1,110 @@
 *{
-	margin: 10px;
-	padding: 10px;
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F8F8F8;
+	color: #303030;
+}
+a{
+	text-decoration: none;
 }
 .padre{
 	display: flex;
 	flex-flow: column nowrap;
 }
+.separado{
+	padding: 0 10%;
+}
 	.header{
-		background: #000;
+		margin: 20px 0 20px 0;
 		display: flex;
 		flex-flow: column nowrap;
 	}
 		.menu{
 			background: #cf7500;
+			text-align: center;
 			display: flex;
-			flex-flow: row nowrap;
 			align-items: center;
+		}
+		.menu img{
+			width: 100%;
+			max-width: 150px;
+		}
+		.menu a{
+			color: #303030;
 		}
 			.cel{
 				background: #f0a500;
-				flex: 1 1 auto;
+				flex: 20%;
 			}
 			.ubicacion{
 				background: #f0a500;
-				flex: 1 1 auto;
+				flex: 20%;
 			}
 			.logo{
 				background: #f0a500;
-				flex: 1 1 auto;
+				flex: 20%;
 			}
 			.envio{
 				background: #f0a500;
-				flex: 1 1 auto;
+				flex: 20%;
 			}
 			.items{
 				background: #f0a500;
-				flex: 1 1 auto;
+				flex: 20%;
 				display: flex;
 				align-items: center;
 			}
 				.kora{
-					background: #dbdbdb;
-					flex: 1 1 auto;
+					flex: 25%;
 				}
 				.men{
-					background: #dbdbdb;
-					flex: 1 1 auto;
+					flex: 25%;
 				}
 				.lupa{
-					background: #dbdbdb;
-					flex: 1 1 auto;
+					flex: 25%;
 				}
 				.carro{
-					background: #dbdbdb;
-					flex: 1 1 auto;
+					flex: 25%;
 				}
+	/*(NAVEGACION)*/
 	.nav{
-		background: #000;
+		margin: 10px 0 10px 0;
 	}
 		.submenu{
-			background: #cf7500;
+			text-align: center;
 		}
-	.main{
-		background: #000;
+		.submenu li{
+			display: inline-block;
+			font-size: 15px;
+			padding: 0 30px;
+			letter-spacing: 2px;
+		}
+	.promo1{
+		background: url(img/sec1.jpg);
+		background-position: center;
+		background-attachment: contain;
+		background-size: cover;
 	}
 		.destacado{
-			background: #cf7500;
+			margin: 20% 0 26% 0;
+			font-size: 2em;
+		}
+		.destacado button{
+			margin-top: 20px;
+			border: none;
+			background-color: #FF4C34;
+			width: 200px;
+			height: 60px;
+			font-size: 0.7em;
+			color: #f8f8f8;
 		}
 	.section{
 		background: #d32626;
+		padding-bottom: 50px; 
 		display: flex;
 		flex-flow: column nowrap;
 	}
@@ -79,21 +114,41 @@
 			flex-flow: row wrap;
 		}
 			.text{
-				background: #dbdbdb;
+				padding: 50px 0 30px 0;
 				flex: 1 1 100%;
 			}
 			.fotos{
-				background: #dbdbdb;
-				flex: 1 1 auto;
+				margin: 0 10px;
+				flex: 1 1 40%;
 			}
+			.fotos img{
+				padding: 10px 0;
+				width: 100%;
+			}
+		.titulo{
+			padding: 50px 0 30px 0;
+		}
 		.catalogo{
 			background: #cf7500;
 			display: flex;
 		}
 			.producto{
+				border: solid 1px #dbdbdb;
+				border-radius: 5px;
 				background: #dbdbdb;
-				flex: 1 1 auto;
+				margin: 10px;
+				padding: 10px;
+				flex: 25%;
 			}
+			.producto img{
+				width: 100%;
+			}
+	.promo2{
+		background: url(img/sec2.jpg);
+		background-position: center;
+		background-attachment: contain;
+		background-size: cover;
+	}
 	.footer{
 		background: #000;
 		display: flex;
