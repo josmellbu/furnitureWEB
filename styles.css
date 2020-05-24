@@ -1,0 +1,123 @@
+*{
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+}
+	.header{
+		background: #000;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.menu{
+			background: #cf7500;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+		}
+			.cel{
+				background: #f0a500;
+				flex: 1 1 auto;
+			}
+			.ubicacion{
+				background: #f0a500;
+				flex: 1 1 auto;
+			}
+			.logo{
+				background: #f0a500;
+				flex: 1 1 auto;
+			}
+			.envio{
+				background: #f0a500;
+				flex: 1 1 auto;
+			}
+			.items{
+				background: #f0a500;
+				flex: 1 1 auto;
+				display: flex;
+				align-items: center;
+			}
+				.kora{
+					background: #dbdbdb;
+					flex: 1 1 auto;
+				}
+				.men{
+					background: #dbdbdb;
+					flex: 1 1 auto;
+				}
+				.lupa{
+					background: #dbdbdb;
+					flex: 1 1 auto;
+				}
+				.carro{
+					background: #dbdbdb;
+					flex: 1 1 auto;
+				}
+	.nav{
+		background: #000;
+	}
+		.submenu{
+			background: #cf7500;
+		}
+	.main{
+		background: #000;
+	}
+		.destacado{
+			background: #cf7500;
+		}
+	.section{
+		background: #d32626;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.categoria{
+			background: #cf7500;
+			display: flex;
+			flex-flow: row wrap;
+		}
+			.text{
+				background: #dbdbdb;
+				flex: 1 1 100%;
+			}
+			.fotos{
+				background: #dbdbdb;
+				flex: 1 1 auto;
+			}
+		.catalogo{
+			background: #cf7500;
+			display: flex;
+		}
+			.producto{
+				background: #dbdbdb;
+				flex: 1 1 auto;
+			}
+	.footer{
+		background: #000;
+		display: flex;
+	}
+		.sec{
+			background: #cf7500;
+			flex: 1 1 auto;
+		}
+		.secp{
+			background: #cf7500;
+			flex: 2 1 auto;
+		}
+@media all and (max-width: 1000px) {
+	.categoria{
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 800px) {
+	.catalogo{
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 600px) {
+	.menu{
+		flex-direction: column;
+	}
+}
