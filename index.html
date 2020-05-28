@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="lightslider.css">
+	<script type="text/javascript" src="JQuery3.3.1.js"></script>
+	<script type="text/javascript" src="lightslider.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
 	<div class="padre">
@@ -74,58 +78,94 @@
 				</div>
 			</div>
 			<div class="arrow">
-				<div class="titulo">
-					<h1>Catalogo</h1>
-				</div>
+			<div class="titulo">
+				<h1>Catalogo</h1>
+			</div>
+				<!--Slider-->
+			<div class="arrow">
 				<div class="catalogo">
-					<div class="producto">
-						<img src="img/sillon.jpg" alt="">
-						<h1>Swan</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</h4>
-						<div class="costo">
-							<div class="precio">
-								<h4>5465465</h4>
-								<h2>4564654</h2>
+					<ul id="autoWidth" class="cs-hidden">
+  						<li class="item-a">
+							<div class="producto">
+								<img src="img/sillon.jpg" alt="">
+								<h1>Swan</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</p>
+								<div class="costo">
+									<div class="precio">
+										<h4>5465465</h4>
+										<h2>4564654</h2>
+									</div>
+									<div class="boton">
+										<button>Añadir</button>
+									</div>
+								</div>
 							</div>
-							<div class="boton"><button>Añadir</button></div>
-						</div>
-					</div>
-					<div class="producto">
-						<img src="img/sillon.jpg" alt="">
-						<h1>Swan</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</h4>
-						<div class="costo">
-							<div class="precio">
-								<h4>5465465</h4>
-								<h2>4564654</h2>
+						</li>
+						<li class="item-a">
+							<div class="producto">
+								<img src="img/sillon.jpg" alt="">
+								<h1>Swan</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</p>
+								<div class="costo">
+									<div class="precio">
+										<h4>5465465</h4>
+										<h2>4564654</h2>
+									</div>
+									<div class="boton">
+										<button>Añadir</button>
+									</div>
+								</div>
 							</div>
-							<div class="boton"><button>Añadir</button></div>
-						</div>
-					</div>
-					<div class="producto">
-						<img src="img/sillon.jpg" alt="">
-						<h1>Swan</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</h4>
-						<div class="costo">
-							<div class="precio">
-								<h4>5465465</h4>
-								<h2>4564654</h2>
+						</li>
+						<li class="item-a">
+							<div class="producto">
+								<img src="img/sillon.jpg" alt="">
+								<h1>Swan</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</p>
+								<div class="costo">
+									<div class="precio">
+										<h4>5465465</h4>
+										<h2>4564654</h2>
+									</div>
+									<div class="boton">
+										<button>Añadir</button>
+									</div>
+								</div>
 							</div>
-							<div class="boton"><button>Añadir</button></div>
-						</div>
-					</div>
-					<div class="producto">
-						<img src="img/sillon.jpg" alt="">
-						<h1>Swan</h1>
-						<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</h4>
-						<div class="costo">
-							<div class="precio">
-								<h4>5465465</h4>
-								<h2>4564654</h2>
+						</li>
+						<li class="item-a">
+							<div class="producto">
+								<img src="img/sillon.jpg" alt="">
+								<h1>Swan</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</p>
+								<div class="costo">
+									<div class="precio">
+										<h4>5465465</h4>
+										<h2>4564654</h2>
+									</div>
+									<div class="boton">
+										<button>Añadir</button>
+									</div>
+								</div>
 							</div>
-							<div class="boton"><button>Añadir</button></div>
-						</div>
-					</div>
+						</li>
+						<li class="item-a">
+							<div class="producto">
+								<img src="img/sillon.jpg" alt="">
+								<h1>Swan</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aperiam, hic libero excepturi accusantium doloribus consequuntur temporibus quibusdam consequatur, quasi corporis sunt, provident minus! Consequuntur a adipisci eos minima eius.</p>
+								<div class="costo">
+									<div class="precio">
+										<h4>5465465</h4>
+										<h2>4564654</h2>
+									</div>
+									<div class="boton">
+										<button>Añadir</button>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</section>
